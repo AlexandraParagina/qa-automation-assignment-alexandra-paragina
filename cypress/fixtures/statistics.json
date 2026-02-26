@@ -1,0 +1,45 @@
+{
+  "stats": [
+    {
+      "statValue": "18+ Years",
+      "statValueColor": "rgb(82, 206, 147)",
+      "statValueFontSize": "40px",
+      "statValueFontWeight": "300",
+      "statLabel": "of Industry Experience",
+      "statLabelFontSize": "20px",
+      "statLabelFontWeight": "300",
+      "statLabelColor": "rgb(255, 255, 255)"
+    },
+    {
+      "statValue": "11",
+      "statLabel": "SaaS Products",
+      "statValueColor": "rgb(82, 206, 147)",
+      "statValueFontSize": "40px",
+      "statValueFontWeight": "300",
+      "statLabelFontSize": "20px",
+      "statLabelFontWeight": "300",
+      "statLabelColor": "rgb(255, 255, 255)"
+    },
+    {
+      "statValue": "100+",
+      "statValueColor": "rgb(82, 206, 147)",
+      "statValueFontSize": "40px",
+      "statValueFontWeight": "300",
+      "statLabel": "Airports Worldwide",
+      "statLabelFontSize": "20px",
+      "statLabelFontWeight": "300",
+      "statLabelColor": "rgb(255, 255, 255)"
+    },
+    {
+      "statValue": "300k",
+      "statValueColor": "rgb(82, 206, 147)",
+      "statValueFontSize": "40px",
+      "statValueFontWeight": "300",
+      "statLabel": "Users Worldwide",
+      "statLabelFontSize": "20px",
+      "statLabelFontWeight": "300",
+      "statLabelColor": "rgb(255, 255, 255)"
+    }
+]
+}
+
