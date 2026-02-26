@@ -8,6 +8,13 @@ class HomePage {
     // Stats locators
     statItem = '.div-block-24 h2.h2.green'
     statDescription = 'div.div-block-24 h4.h4'
+
+    // Social media links locators
+    socialLinks = {
+        Facebook: 'a[href="https://www.facebook.com/AirportLabs"]',
+        Instagram: 'a[href="https://www.instagram.com/airportlabspeople/"]',
+        LinkedIn: 'a[href="https://www.linkedin.com/company/airportlabs/"]'
+    }
   
 
     // -----------------------NAVIGATION------------------------
@@ -33,6 +40,10 @@ class HomePage {
     getStatLabel(index) {
         return cy.get(this.statDescription).eq(index);
     }
+        // Get a social media link by name (Facebook, Instagram, LinkedIn)
+    getSocialLink(name) {
+        return cy.get(this.socialLinks[name])
+    }
 
 }  
-export default HomePage;
+export default HomePage
