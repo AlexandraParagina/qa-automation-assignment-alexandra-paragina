@@ -16,6 +16,8 @@ class HomePage {
         LinkedIn: 'a[href="https://www.linkedin.com/company/airportlabs/"]'
     }
   
+    // Logo locator
+    logo = 'img.image-2'
 
     // -----------------------NAVIGATION------------------------
     visitHomePage() {
@@ -43,6 +45,10 @@ class HomePage {
         // Get a social media link by name (Facebook, Instagram, LinkedIn)
     getSocialLink(name) {
         return cy.get(this.socialLinks[name])
+    }
+        // Get the logo element
+    getLogo() {
+        return cy.get(this.logo);
     }
 
 }  
